@@ -34,7 +34,8 @@ body {
 }
 
 button {
-    padding: 20px;
+    width: 60px; /* Equal width and height for a perfect circle */
+    height: 60px; /* Equal width and height for a perfect circle */
     font-size: 18px;
     border: none;
     background-color: #eda72d;
@@ -42,6 +43,11 @@ button {
     border-radius: 50%;
     cursor: pointer;
     transition: background-color 0.3s;
+
+/* Center text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button:hover {
