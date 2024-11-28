@@ -14,7 +14,7 @@ function appendToDisplay(value) {
 function calculate() {
     let display = document.getElementById("display");
     try {
-        let expression = display.value.replace(/×/g, '*').replace(/÷/g, '/');
+       let expression = display.value.replace(/×/g, '*').replace(/÷/g, '/');
         display.value = eval(expression);
     } catch (error) {
         alert("Invalid expression");
