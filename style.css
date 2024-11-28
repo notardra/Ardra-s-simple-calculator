@@ -8,7 +8,7 @@ body {
 }
 
 .calculator {
-    background-color: #ffffff;
+    background-color: #262626;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -16,7 +16,7 @@ body {
 }
 
 #display {
-    width: 100%;
+    width: 80%;
     height: 50px;
     margin-bottom: 20px;
     text-align: right;
@@ -36,7 +36,7 @@ button {
     padding: 20px;
     font-size: 18px;
     border: none;
-    background-color: #4CAF50;
+    background-color: #eda72d;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -44,5 +44,5 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #d4911e;
 }
